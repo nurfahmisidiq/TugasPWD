@@ -1,0 +1,70 @@
+
+
+body{
+  margin: 0;
+    padding: 0;
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+h1{
+  margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;}
+.kelas{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(192,192,192,0.3);
+    border-radius: 5px;
+  }
+  .kelas input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .kelas input[type="text"]{
+    border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #000;
+      font-size: 18px;
+  }
+  .kelas input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+  }
+  ::pleaceholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .kelas input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #000;
+  }
+  .kelas input[type="submit"]:hover{
+    color: #000 ;
+    background: rgba(254, 222, 173, 0.5);
+    transition: 0.2s;
+  }
+  a {
+    text-decoration: none;
+    color:#1F618D;
+  }
